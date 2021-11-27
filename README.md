@@ -1,7 +1,7 @@
 # HCI_WILL
 Dear Sir Bagus,
 
-I'm William Jonathan from L1CC,NIM:2502045683,<br> Here is my BarChart homework regarding the titanic.xlsx you gave me.<br>
+I'm William Jonathan from L1CC,<br>NIM:2502045683,<br> Here is my BarChart homework regarding the titanic.xlsx you gave me.<br>
 I used internal css, the index.html is the html code of the page
 
 <b>Live link</b> = https://willamjonathan.github.io/HCI_WILL/
