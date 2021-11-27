@@ -2,136 +2,106 @@
 <html>
     <head>
         <style>
-            body{
-    background-color: #E6CCA9;
-}
-.heading{
-    text-align:center;
-    position: relative;
-    top:0%;
-    font: size 0.5em;
-    background-color: grey;
-    border:1px solid black;
+        body{
+            background-color: #F4E185;
+          }
+          .header{
+            position:absolute;
+            top:0%;
+            left:0%;
+            width:100%;
+            height:10%;
+            background-color: #F3950D;
+            text-align: center;
+            border-bottom: 2px solid black;
+          }
+          .content{
+              position: absolute;
+              top:20%;
+              height:60%;
+              
+              left:10%;
+              width:80%;
+              text-align: center;
+              font-size: 30px;
+              align-items: center;
+          }
+          .a1{
+              height:20%;
+              border: 2px solid black;
+              background-color: #FFCC1D;
+              
 
-}
-h2{
-    text-align: center;
-}
-.chart-wrap.vertical{
-    position: relative;
-    height:400px;
-    width:400px;
-    margin:auto;
-    
-    
-}
+          }
+          .a2{
+              height:20%;
+              border: 2px solid black;
+              background-color: #0B4619;
 
-.chart-wrap.vertical .grid{
-    transform: rotate(-90deg);
-    
-    
-
-}
-.chart-wrap .grid{
-    position: relative;
-    left:0%;
-    height:100%;
-    width:100%;
-    padding:5px 0 5px 0;
-    border-left:3px solid black;
-    border-top: 3px solid black;
-    background:repeating-linear-gradient(90deg,transparent,transparent,transparent
-    ,transparent,transparent,transparent,
-    transparent,transparent,transparent, black 10%);
-
-    
-}
-.chart-wrap .grid .bar{
-    width:var(--bar-value);
-    height:15%;
-    padding: 0.5em;
-    margin: 0.5em;
-    border-radius: 3px;
-}
-.chart-wrap.vertical .grid .bar::after{
-    transform: translateY(-50%) rotate(90deg);
-    display:block;
-}
-.chart-wrap .bar::after{
-    content: attr(data-name);
-    margin-left: 100%;
-    padding:10px;
-    display:inline-block;
-    white-space: nowrap;
-}
-.chart-wrap .grid::before{
-    font-size: 0.8em;
-    font-weight: bold;
-    content:"0%";
-    position:absolute;
-    
-    top:-1.5em;
-
-}
-.chart-wrap .grid::after{
-    font-size: 0.8em;
-    font-weight: bold;
-    content:"100%";
-    position:absolute;
-    right:-1.5em;
-    top:-1.5em;
-
-}
-p{
-    font: size 0.5em;
-    position:relative;
-    left:25%;
-    font-weight: bold;
-}
-.TABLE{
-    position: absolute;
-    bottom:3%;
-    background-color: grey;
-    
-}
-.ttl2{
-    text-align: center;
-}
-.img1{
-    border:2px solid black;
-    width:75%;
-    position: relative;
-    left:12.5%;
-}
+          }
+          .a3{
+              height:20%;
+              border: 2px solid black
+              ;
+              background-color:#116530 ;
+          }
+          .a4{
+              height:20%;
+              border: 2px solid black
+              ;
+              background-color: #E8E8CC;
+          }
+          .a5{
+              height:20%;
+              border: 2px solid black;
+              background-color: #F4E185;
+          }
+          .footer{
+                position:absolute;
+                bottom:0%;
+                left:0%;
+                width:100%;
+                height:10%;
+                background-color:#F3950D;
+                border-top: 2px solid black;
+            }
+            .name{
+                position: absolute;
+                right:3%;
+                top:30%;
+                font-weight: bold;
+            }
         </style>
-
-    
-        <meta charset ="utf8">
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bar Chart William</title>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Titanic homework</title>
     </head>
     <body>
-        <div class ="heading">
-            <h1>Bar Chart Titanic 3 </h1>
+        <div class = "header">
+            <h2>HCI TITANIC BAR CHART HOMEWORK</h2>
         </div>
-        <div class = "ttl1"><h2>5 category of titanic:</h2></div>
-        <div class ="chart-wrap vertical">
-            <div class ="grid">
-                <div class ="bar" style="--bar-value:64.4%;background-color:blue;font-size: 0.5em;font-weight: bold;"data-name="MOP"></div>
-                <div class ="bar" style="--bar-value:38.2%;background-color:yellow;font-size: 0.5em;font-weight: bold;"data-name="SOP"></div>
-                <div class ="bar" style="--bar-value:0.7%;background-color:green;font-size: 0.5em;font-weight: bold;"data-name="PFOP"></div>
-                <div class ="bar" style="--bar-value:31.9%;background-color:red;font-size: 0.5em;font-weight: bold;"data-name="PSOP"></div>
-                <div class ="bar" style="--bar-value:4.9%;background-color:purple;font-size: 0.5em;font-weight: bold;"data-name="NYOP"></div>
+        <div class = "content">
+            <div class ="a1">
+               <a href="https://willamjonathan.github.io/Charttt/" style="text-decoration:none;color:black;"> Chart 1</a>
+            </div>
+            <div class ="a2">
+                <a href="https://willamjonathan.github.io/chart2/" style="text-decoration:none;color:black;"> Chart 2</a>
+            </div>
+            <div class ="a3">
+                <a href="https://willamjonathan.github.io/chart3/" style="text-decoration:none;color:black;"> Chart 3</a>
+            </div>
+            <div class ="a4">
+                <a href="https://willamjonathan.github.io/chart4/" style="text-decoration:none;color:black;"> Chart 4</a>
+            </div>
+            <div class ="a5">
+                <a href="https://willamjonathan.github.io/chart5/" style="text-decoration:none;color:black;"> Chart 5</a>
             </div>
         </div>
-
-        <div class ="TABLE">
-            <div class="ttl2">EXPLANATION:</div>
-            <div class ="img1">
-                <img src="https://raw.githubusercontent.com/willamjonathan/HCI_WILL/main/TITANIC/TITANIC%20TABLE%20WIL.jpg" width="100%" class="center">
+        <div class ="footer">
+            <div class="name">
+                William Jonathan Mulyadi- 2502045683
             </div>
-
         </div>
-
     </body>
 </html>
