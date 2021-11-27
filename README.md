@@ -5,7 +5,7 @@ I'm William Jonathan from L1CC,NIM:2502045683, Here is my BarChart homework rega
 
 Live link = https://willamjonathan.github.io/HCI_WILL/
 
-There's also an image which I put, the image explain how I did the calculations.<br>
+In Titanic file there is an image which I put, the image explain how I did the calculations.<br>
 Chart1 <br> Live link = https://willamjonathan.github.io/Charttt/ <br>
 Code = https://github.com/willamjonathan/Charttt/tree/main <br>
 Chart2 <br> Live link = https://willamjonathan.github.io/chart2/ <br>
