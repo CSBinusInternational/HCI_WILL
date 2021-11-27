@@ -4,7 +4,7 @@ Dear Sir Bagus,
 I'm William Jonathan from L1CC,NIM:2502045683,<br> Here is my BarChart homework regarding the titanic.xlsx you gave me.<br>
 I used internal css, the index.html is the html code of the page
 
-Live link = https://willamjonathan.github.io/HCI_WILL/
+<b>Live link</b> = https://willamjonathan.github.io/HCI_WILL/
 
 In Titanic file there is an image which I put, the image explain how I did the calculations.<br>
 <b>Chart1</b> (bar chart) <br> Live link = https://willamjonathan.github.io/Charttt/ <br>
